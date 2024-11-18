@@ -1,0 +1,261 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+#a{
+    background-color: #189ab4;
+    height:100px;
+    width: 100%;
+    border-radius:10px;
+   /* text-align: center; */
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    
+
+}
+#a1{
+    height:100x;
+    width: 100px;
+    display: inline-block;
+    
+    
+}
+#a2{
+    height:50x;
+   justify-content:center ; 
+    /* width: 100px; */
+    text-align:center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+}
+#a3{
+    height:50x;
+    border-radius:10px;
+    width: auto;
+    text-align:right;
+    display: flex;
+    align-items: flex-end;
+    
+}
+#photo{
+   height:100x;
+   width:80; 
+}
+k{
+    border-radius:10px;
+    height: 700px;
+    padding: 5px 10px 15px 15px;
+    margin-top: 20px;
+}
+
+#k1{
+    background-color:  #75e6da;
+    height:200 px;
+    padding: 5px 10px 15px 15px;
+    margin-top: 20px;
+    border-radius:10px;
+ 
+}
+#k2{
+    background-color: white;
+    height: 1000px;
+    border-radius:10px;
+    
+
+}
+#k20{
+    display: flex;
+}
+#k201{
+  
+   height: 400px;
+   width: 50%;
+   transform: scale(0.8);
+    animation: popup 1s ease forwards;
+  
+}@keyframes popup {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+}
+}
+
+
+#k202{
+   
+    height: 400px;
+    width: 50%;
+    font-size: 1.5rem;
+    transform: scale(0.8);
+    animation: popup 1s ease forwards;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#k21{
+    margin-left: 30px;
+}
+
+#k23{
+    margin-left: 30px;
+}
+#image2{
+    height: 300px;
+    width:300px;
+    border-radius: 10px;
+    margin: 45px 45px 45px 45px;
+}
+#image3{
+    height: 300px;
+    width:300px;
+    border-radius: 10px;
+    margin: 45px 45px 45px 45px;
+}
+
+
+    
+    
+
+#image{
+    height: 300px;
+    width:300px;
+    border-radius: 10px;
+    margin: 45px 45px 45px 45px;
+}
+body{
+    background-color: #d4f1f4;
+}
+#margin1{
+    margin-right:  170px; 
+    
+}
+#margin1:hover{
+    text-decoration: underline;
+}
+#margin2{
+    margin-right:  170px; 
+}
+#margin2:hover{
+    text-decoration: underline;
+}
+#margin3{
+    margin-right:  170px; 
+}
+#margin3:hover{
+    text-decoration: underline;
+}
+#margin4{
+    margin-right:  170px; 
+}
+#margin4:hover{
+    text-decoration: underline;
+}
+
+#a{
+     text-align: right
+    ;
+}
+button{
+    margin-right: 30px;
+}
+#f2{
+    height: 100px;
+    background-color: #747474;
+    border-radius:10px;
+    padding: 5px 10px 5px 10px;
+    
+}
+
+#f1{
+    height: 20px;
+    background-color: #444444;
+    border-radius:10px;
+    padding: 5px 10px 5px 10px;
+    
+}
+#b1{
+    border-radius:4px;
+}
+#b2{
+    border-radius:4px;
+}
+#i1{border-radius:10px;
+    
+    
+    
+
+}
+.custom{
+    margin-right: 300px;
+}
+.contact{
+    margin-right: 300px;
+}  
+/* Sidebar container */
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #189ab4;
+    color: white;
+    padding: 20px;
+    transition: left 0.3s ease;
+    z-index: 1000;
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+  
+  /* Sidebar content styling */
+  #sidebar-content {
+    margin-bottom: 20px;
+  }
+  
+  #sidebar-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #sidebar-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #sidebar-content ul li {
+    margin: 15px 0;
+  }
+  
+  #sidebar-content ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  #sidebar-content ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Close button styling */
+  #close-sidebar {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 15px;
+    background-color: #444444;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #close-sidebar:hover {
+    background-color: #333;
+  }
+  
+

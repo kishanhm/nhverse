@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nhverse</title>
+    <link rel="stylesheet" href="xyz.css">
+</head>
+<body>
+    <header>
+       
+   <div id="a">
+    <div id="a1">
+        <!-- <img src="nh2.png"> -->
+        <img src="nh2.png" id="image-click" alt="NH-VERSE Logo">
+
+    </div>
+    <div id="a2">
+        <h1>NH-VERSE</h1>
+       </div>
+        
+        
+         <div id="a3">    
+        
+        <button id="b1">sign in</button>
+        <button id="b2">register</button>
+        </div>
+        </div>
+    </header>   
+        
+   </div>
+   <div id="k">
+    <div id="k1">
+       <a id="margin1">Flights</a>
+       <a id="margin2">Stays</a>
+       <a id="margin3">Car Rent</a>
+       <a id="margin4">Airport taxi</a>
+        <input placeholder   ="search hotels" id="i1">
+       
+            <button>search</button>
+        </div>
+        <div id="k2">
+          <div id="k20">
+            <div id="k201">
+              <img src="abc1-removebg-preview.png">
+            </div>
+            <div id="k202">
+              <h1>Make your trip memorable</h1>
+              <h2>Spend your time with lots of comforts </h2>
+            </div>
+          </div>
+            
+            <div id="k21">
+                <h1> Unique hotels in Bengaluru</h1>
+                <a>Make your memories beautiful</a>
+            </div>
+            <div id="k22" >
+                <img src ="https://media.istockphoto.com/id/1319453433/photo/modern-luxury-house-with-private-infinity-pool-in-dusk.jpg?s=612x612&w=0&k=20&c=WDWGyEZfDp8Qi2OI6m9RrNPHdnj5EPVBLvVi0IP7K74=" id="image">
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/21/20/c9/facadenight.jpg?w=900&h=500&s=1" id="image2">
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/19/52/91/outdoor-pool.jpg?w=300&h=300&s=1" id="image3">
+            </div>
+            
+           
+            <div id="k24"></div>
+        </div>
+
+       
+   </div>
+   <footer>
+    <div id="f1">
+        <a class="custom" img src="">customer care </a>
+        <a class="custom">contact</a>
+        <a class="custom">support</a>
+        <a></a>
+    </div>
+    <div id="f2">    
+           <a class="contact">985632147289 </a>
+        <a class="contact">facebook</a>
+        <a class="contact">2136549872</a></div>
+   </footer>
+   <script>
+    document.addEventListener('DOMContentLoaded', function() {
+     
+      const image = document.getElementById('image-click');
+      const sidebar = document.createElement('div'); 
+  
+     
+      sidebar.innerHTML = `
+        <div id="sidebar-content">
+          <h2>NH-VERSE Sidebar</h2>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#booking-dates">Booking Dates</a></li>
+            <li><a href="#region">Region</a></li>
+            <li><a href="#world-map">World Map</a></li>
+          </ul>
+        </div>
+        <button id="close-sidebar">Close</button>
+      `;
+  
+      
+      sidebar.id = 'sidebar';
+      sidebar.style.position = 'fixed';
+      sidebar.style.top = '0';
+      sidebar.style.left = '-250px';
+      sidebar.style.width = '250px';
+      sidebar.style.height = '100%';
+      sidebar.style.backgroundColor = '#189ab4';
+      sidebar.style.color = 'white';
+      sidebar.style.transition = 'left 0.3s ease';
+      sidebar.style.padding = '20px';
+      sidebar.style.zIndex = '1000';
+      sidebar.style.boxShadow = '2px 0px 10px rgba(0, 0, 0, 0.5)';
+      sidebar.style.display = 'none'; 
+  
+     
+      document.body.appendChild(sidebar);
+  
+      
+      image.addEventListener('click', function() {
+        sidebar.style.display = 'block'; 
+        setTimeout(function() {
+          sidebar.style.left = '0'; 
+        }, 10);
+      });
+  
+      document.getElementById('close-sidebar').addEventListener('click', function() {
+        sidebar.style.left = '-250px'; 
+        setTimeout(function() {
+          sidebar.style.display = 'none'; 
+        }, 300); 
+      });
+    });
+  </script>
+  
+</body>
+</html>
